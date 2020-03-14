@@ -23,5 +23,4 @@ build:
   
 artifacts:
 
-  # pushing a single file
-  - path: test.zip
+  path: .build/win64_vs2019/bin
