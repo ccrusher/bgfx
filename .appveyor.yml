@@ -19,3 +19,9 @@ install:
 
 build:
   project: .build/projects/$(TOOLSET)/bgfx.sln
+  
+  
+artifacts:
+
+  # pushing a single file
+  - path: test.zip
